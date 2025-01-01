@@ -6,7 +6,7 @@ import 'package:http/http.dart' as http;
 class ChatController extends GetxController {
   final TextEditingController messageController = TextEditingController();
   final RxList<String> messages = <String>[].obs;
-  final String apiKey = 'AIzaSyDQCZIusX3G5z3b0X-Xp5NEOo2IzSrOKq4'; // Replace with your API key
+  final String apiKey = 'YOUR API KEY'; // Replace with your API key
   final String apiUrl =
       'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=';
 
