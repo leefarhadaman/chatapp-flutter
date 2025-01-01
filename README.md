@@ -1,4 +1,5 @@
 ***AI-Powered Chat App with Flutter & GetX***
+
 This project demonstrates how to build an AI-powered chat application using Flutter, GetX, and the Google Gemini API for generating real-time responses.
 
 Features
